@@ -10,6 +10,39 @@
     margin: 0;
     padding: 0;
   }
+  .MealsLoading{
+    max-width: 60rem;
+    width: 90%;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 2.5rem auto;
+    color: rgb(96, 95, 95);
+    border-radius: 30px;
+    background-color: white;
+    height: 300px;
+    max-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .MealsError{
+    max-width: 60rem;
+    width: 90%;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 2.5rem auto;
+    color: rgb(136, 4, 4);
+    border-radius: 30px;
+    background-color: white;
+    height: 300px;
+    max-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   
   @keyframes meals-appear {
     from {

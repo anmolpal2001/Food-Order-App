@@ -10,7 +10,7 @@
 
 .modal {
   position: fixed;
-  top: 15vh;
+  top: 9vh; /* This values is changed because of checkout form */
   left: 5%;
   width: 90%;
   background-color: white;
